@@ -37,7 +37,7 @@ class Box
         else {return false;}
     }
 
-    friend ostream& operator<<(ostream& out, Box& B)
+    friend ostream& operator<<(ostream& out, Box &B)
     {
     out << B.l << " " << B.b << " " << B.h; 
     return out; 
